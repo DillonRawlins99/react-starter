@@ -15,7 +15,7 @@ Some react starter code. Modular structure, client-side routing and navbar drive
 ```
   git clone https://github.com/DillonRawlins99/react-starter.git # Clone repo
   cd react-starter # Change into project root directory
-  yarn # Intall Dependencies
+  yarn # Install Dependencies
   yarn run dev # Start Dev server
 ```
 
