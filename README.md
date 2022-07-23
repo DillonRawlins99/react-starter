@@ -5,10 +5,10 @@ Some react starter code. Modular structure, client-side routing and navbar drive
 - Vite, Yarn
 
 # To Run
-<code>
+```
   yarn # Intall Dependencies in project root
   yarn run dev # Start Dev server
-</code>
+```
 
 # Resources
 [Set Up React Vite](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite)
