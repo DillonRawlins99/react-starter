@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import routes from "./routes/routes";
-import Navbar from "./routes/Navbar/Navbar";
+import routes from "./routes";
+import Navbar from "./common/Navbar/Navbar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme();

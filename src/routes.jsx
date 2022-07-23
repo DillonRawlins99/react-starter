@@ -1,7 +1,7 @@
-import About from "./About/About";
-import Blog from "./Blog/Blog";
-import Home from "./Home/Home";
-import Profile from "./Profile/Profile";
+import About from "./routes/About/About";
+import Blog from "./routes/Blog/Blog";
+import Home from "./routes/Home/Home";
+import Profile from "./routes/Profile/Profile";
 
 // Consumed in App and Navbar components
 // Used for list rendering of nav links and
