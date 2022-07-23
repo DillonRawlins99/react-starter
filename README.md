@@ -1,4 +1,4 @@
-# react-starter
+# About
 Some react starter code. Modular structure, client-side routing and navbar driven by configurable routes.
 
 # Libraries
