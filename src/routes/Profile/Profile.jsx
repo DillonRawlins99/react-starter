@@ -1,4 +1,4 @@
-import { Paper, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import UserCard from "./UserCard";
 
 const Profile = () => {
@@ -11,9 +11,7 @@ const Profile = () => {
   ];
 
   const cardEls = users.map((user, idx) => (
-    <Paper key={idx}>
-      <UserCard user={user} />
-    </Paper>
+      <UserCard key={idx} user={user} />
   ));
   return (
     <>
