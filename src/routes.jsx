@@ -1,5 +1,6 @@
 import About from "./About/About";
-import { Home } from "./Home/Home";
+import Blog from "./Blog/Blog";
+import Home from "./Home/Home";
 import Profile from "./Profile/Profile";
 
 // Consumed in App and Navbar components
@@ -14,4 +15,5 @@ export default [
   ["/", <Home />, "Home"],
   ["/about", <About />, "About"],
   ["/profile", <Profile />, "Profile"],
+  ["/blog", <Blog />, "Blog"],
 ];
