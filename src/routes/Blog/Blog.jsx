@@ -6,7 +6,7 @@ const Blog = () => {
       <Typography align="center" variant="h3">
         My Blog
       </Typography>
-      <section style={{ width: "50%", textAlign: "center", marginLeft: "22%" }}>
+      <section>
         <p>
           Mug, aged, americano pumpkin spice ut irish body. Grounds beans
           decaffeinated at café au lait dripper shop white. Skinny milk siphon

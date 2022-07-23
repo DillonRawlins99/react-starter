@@ -1,10 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import routes from "./routes";
-import Navbar from "./common/Navbar/Navbar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Layout } from "./Layout/Layout";
 
 const theme = createTheme();
 
+// Concerns of App:
+// - Wire up client-side routing
+// - Providers for various state providers (theming, context, etc.)
 export default function App() {
   const routeEls = routes.map(([path, ele, _], idx) => (
     <Route key={idx} path={path} element={ele} />
@@ -13,8 +16,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
-        <Navbar />
-        <Routes>{routeEls}</Routes>
+        <Layout>
+          <Routes>{routeEls}</Routes>
+        </Layout>
       </ThemeProvider>
     </BrowserRouter>
   );

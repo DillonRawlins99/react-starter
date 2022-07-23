@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import UserCard from "./UserCard";
 
 const Profile = () => {
@@ -10,10 +10,16 @@ const Profile = () => {
     "leecow",
   ];
 
-  const cardEls = users.map((user, idx) => <UserCard key={idx} user={user} />);
+  const cardEls = users.map((user, idx) => (
+    <Paper key={idx}>
+      <UserCard user={user} />
+    </Paper>
+  ));
   return (
     <>
-      <Typography variant="h3">Profile</Typography>
+      <Typography textAlign="center" variant="h3">
+        Profile
+      </Typography>
       {cardEls}
     </>
   );
