@@ -10,6 +10,7 @@ import Profile from "./routes/Profile/Profile";
 // Advantages
 // 1. Less imports in App.js, Navbar, handling client-side routing and nav links
 // 2. Ability to separate custom routing logic (render different routes depending on some conditions, auth)
+//        - (isAuthenticated) ? <Profile /> : <Redirect />
 // 3. Cleaner markup
 export default [
   ["/", <Home />, "Home"],
