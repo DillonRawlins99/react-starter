@@ -8,7 +8,8 @@ Some react starter code. Modular structure, client-side routing and navbar drive
 
 
 # About Tooling
-- Vite, Yarn
+- [Vite](https://vitejs.dev/blog/announcing-vite2.html)
+- [Yarn](https://yarnpkg.com/)
 
 # To Run
 ```
