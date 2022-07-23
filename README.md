@@ -5,7 +5,8 @@ Some react starter code. Modular structure, client-side routing and navbar drive
 - [React v18](https://reactjs.org/docs/getting-started.html)
 - [React MUI v5](https://mui.com/)
 - [React Router v6](https://reactrouter.com/docs/en/v6/getting-started/overview)
-- 
+
+
 # About Tooling
 - Vite, Yarn
 
