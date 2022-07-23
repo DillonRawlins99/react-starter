@@ -15,9 +15,9 @@ Some react starter code. Modular structure, client-side routing and navbar drive
 ```
   git clone https://github.com/DillonRawlins99/react-starter.git # Clone repo
   cd react-starter # Change into project root directory
-  yarn # Intall Dependencies in project root
+  yarn # Intall Dependencies
   yarn run dev # Start Dev server
 ```
 
-# Resources
+# References
 [Set Up React Vite](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite)
