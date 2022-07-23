@@ -8,14 +8,8 @@ const About = () => {
   const todos = useTodos(todoId);
   return (
     <>
-      <TextField
-        size="small"
-        label="Todo Id"
-        inputRef={todoTextFieldRef}
-      ></TextField>
+      <TextField size="small" label="Todo Id" inputRef={todoTextFieldRef} />
       <Button
-        color="primary"
-        variant="outlined"
         onClick={() => {
           setTodoId(todoTextFieldRef.current.value);
         }}
@@ -27,5 +21,4 @@ const About = () => {
     </>
   );
 };
-
 export default About;

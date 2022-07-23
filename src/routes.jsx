@@ -7,9 +7,9 @@ import Profile from "./Profile/Profile";
 // react router routing of element/component rendering
 
 // Advantages
-// 1. Less imports in App.js or component handling client-side routing
+// 1. Less imports in App.js, Navbar, handling client-side routing and nav links
 // 2. Ability to separate custom routing logic (render different routes depending on some conditions, auth)
-// 3. Cleaner navbar component markup
+// 3. Cleaner markup
 export default [
   ["/", <Home />, "Home"],
   ["/about", <About />, "About"],
