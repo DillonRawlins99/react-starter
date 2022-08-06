@@ -1,5 +1,6 @@
 import About from "./routes/About/About";
 import Blog from "./routes/Blog/Blog";
+import Form from "./routes/Form/Form";
 import Home from "./routes/Home/Home";
 import Profile from "./routes/Profile/Profile";
 import Timer from "./routes/Timer/Timer";
@@ -19,4 +20,5 @@ export default [
   ["/profile", <Profile />, "Profile"],
   ["/blog", <Blog />, "Blog"],
   ["/timer", <Timer />, "Timer"],
+  ["/form", <Form />, "Form"],
 ];
