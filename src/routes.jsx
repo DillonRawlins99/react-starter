@@ -2,6 +2,7 @@ import About from "./routes/About/About";
 import Blog from "./routes/Blog/Blog";
 import Home from "./routes/Home/Home";
 import Profile from "./routes/Profile/Profile";
+import Timer from "./routes/Timer/Timer";
 
 // Consumed in App and Navbar components
 // Used for list rendering of nav links and
@@ -17,4 +18,5 @@ export default [
   ["/about", <About />, "About"],
   ["/profile", <Profile />, "Profile"],
   ["/blog", <Blog />, "Blog"],
+  ["/timer", <Timer />, "Timer"],
 ];
